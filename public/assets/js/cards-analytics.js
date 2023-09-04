@@ -275,7 +275,7 @@
         type: 'donut',
         parentHeightOffset: 0
       },
-      labels: ['USA', 'India', 'Canada', 'Japan', 'France'],
+      labels: ['UM Digos', 'PCDS', 'CorJesu', 'DSSC', 'Other'],
       tooltip: { enabled: false },
       dataLabels: { enabled: false },
       stroke: {
@@ -926,7 +926,7 @@
       series: [
         {
           name: 'Sales',
-          data: [17165, 13850, 12375, 9567, 7880]
+          data: [1000, 2000, 300, 506, 1008]
         }
       ],
       plotOptions: {
@@ -978,7 +978,7 @@
         }
       },
       xaxis: {
-        categories: ['US', 'IN', 'JA', 'CA', 'AU'],
+        categories: ['UMDC', 'CJC', 'DSSC', 'PCSDS', 'OTHER'],
         labels: {
           formatter: function (val) {
             return Number(val / 1000) + 'K';
